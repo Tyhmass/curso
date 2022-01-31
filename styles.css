@@ -1,0 +1,35 @@
+body{
+    margin: 0 auto;
+}
+.bg-image{
+    position: absolute;
+    width: 100%;
+    height: 450px;
+    z-index: -1;
+}
+#showcase{
+    width: 100%;
+    height: 450px;
+    color: blanchedalmond;
+    text-align: center;
+}
+.grid{
+    display: grid;
+}
+img{
+    width: 100%;
+    height: 450px;
+}
+#showcase h1{
+    padding-top: 100px;
+    padding-bottom: 0;
+}
+.btn{
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    text-decoration: none;
+    padding: 1em 2em;
+    border: 1px solid#666;
+    margin: 0.5em 0;
+}
