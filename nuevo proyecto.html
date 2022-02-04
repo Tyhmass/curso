@@ -4,15 +4,42 @@
     <title>mi primer proyecto</title>
 </head>
 <body>
-    <form>
+    <!-- ul es lista no ordenada -->
+    <ul>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+    </ul>
+    <!-- ol es lista ordenada -->
+    <ol>
+        <li value="100">Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+        <li>
+            <ul>    
+            <li style="list-style-type:lower-greek;">sub elemento 2</li>
+            <li style="list-style-type:lower-greek;">sub elemento 3</li>
+            <li style="list-style-type:lower-greek;">sub elemento 4</li> 
+        </ul>
+    </ol>
+
+
+    <form action="/Tyhmass" method="get">
         <label for="Nombre del creador">Nombre del creador</label>
-        <input type="text" id="Nombre del creador" name="Nombre del creador" placeholder="Nombre"/>
+        <input value="tyhmas" type="text" id="Nombre del creador" name="Nombre del creador" placeholder="Nombre"/>
         <br>
         <label for="apellido">Apellido</label>
-        <input type="text" id="apellido" name="Apellido" placeholder="nombre secundario"/>
+        <input value="comentario" type="text" id="apellido" name="Apellido" placeholder="nombre secundario"/>
         <br>
         <label for="comentario">Comentario</label>
-        <textarea cols="50" rows="10" name="comentario" id="" placeholder="ingrese comentario" name="comentario"></textarea>
+        <br>
+        <textarea cols="50" rows="10" id="comentario" placeholder="ingrese comentario" name="comentario">valor por defecto</textarea>
+        <br>
+        <button type="button">tipo boton</button>
+        <button type="reset">tipo reset</button>
+        <button type="submit">tipó submit</button>
     </form>
     <h1>tyhmas</h1>
     <h2>tyhmas</h2>
