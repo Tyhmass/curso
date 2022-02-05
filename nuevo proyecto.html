@@ -2,16 +2,38 @@
 <html lang="es">
 <head>
     <title>mi primer proyecto</title>
+    <style>
+        table, th, td {
+        border: 1.5px solid blue; 
+        }
+    </style>
 </head>
 <body>
-    <table>
+    <table style="width: 800px">
+        <thead>
+            <tr>
+              <th>Precio</th> 
+              <th>Articulo</th> 
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+               <td>tienda</td>
+               <td>Producto</td> 
+            </tr>
+        </tbody>
         <tr>
-           <th>Precio</th> 
-           <th>Articulo</th> 
+            <td>inventario</td>
+            <td>16 piezas</td>
         </tr>
         <tr>
-            <td>tienda</td>
+            <td>inventario</td>
+            <td>1k piezas</td>
         </tr>
+        <tfoot>
+            <td></td>
+            <td>$ 500.00</td>
+        </tfoot>
     </table>
     <!-- ul es lista no ordenada -->
     <ul>
